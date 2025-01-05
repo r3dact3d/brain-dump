@@ -2,7 +2,7 @@
 type: basic-note
 ---
 
-# ideas/Social Bot
+# Social Bot
 
 ## Todo List
 

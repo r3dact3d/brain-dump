@@ -2,7 +2,7 @@
 type: basic-note
 ---
 
-# ideas/PKM Bot
+# PKM Bot
 
 ## Markdown Generator & Integration Assistant
 The Markdown Generator & Integration Assistant is an agent designed to convert ideas or notes into structured markdown format suitable for Foam or Obsidian, and provide instructions for gathering logs and notes from various integrations and tools mentioned in the input.
