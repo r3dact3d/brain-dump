@@ -2,14 +2,12 @@
 type: daily-note
 foam_template:
     NAME: Daily Journal
-    description: Journal for $FOAM_TITLE
+    description: Journal for 2025-01-05
 ---
 
-# $FOAM_DATE_YEAR-$FOAM_DATE_MONTH-$FOAM_DATE_DATE
+# 2025-01-05
 
-## Quiet Time
-
-> "Insert an Scripture of the day here"
+## Morning Routine
 
 - **Mood**: [Happy/Sad/Excited/Tired]
 - **Gratitude**: What are you grateful for today?
@@ -46,24 +44,13 @@ foam_template:
   - **Status**: [In Progress/Completed/Blocked]
   - **Notes**: [Update notes go here]
 
-## Daily Inventory
+## Evening Reflection
 
 - **Accomplishments**: What did you achieve today?
 - **Challenges**: What challenges did you face?
 - **Learnings**: What did you learn today?
 - **Plans**: What do you plan to do tomorrow?
 
-## Fun Fact
-
-- Did you know? [Insert a fun fact]
-
-## Random Thoughts
-
-- [Any random thoughts or observations]
-
 ---
 
 **Tags**: #daily
-
-**Links**:
-
