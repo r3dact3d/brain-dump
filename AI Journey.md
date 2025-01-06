@@ -4,11 +4,22 @@ type: basic-note
 
 # AI Journey
 
+![ai-journey](attachments/ai-journey.png)
+
+![expertise](attachments/expertise.png)
+
+![costly_1](attachments/costly_1.png)
+
+![costly_2](attachments/costly_2.png)
+
+![run_local](attachments/run_local.png)
+
 ### Standalone AI
 
 Standalone AI refers to AI frameworks and platforms that can be used independently to build and deploy AI models. These tools often provide a comprehensive set of features for developing AI applications from scratch.
 
 - [Mistral](https://console.mistral.ai/)
+
 - [ChatGPT]
 
 
@@ -77,3 +88,5 @@ Open-source: Yes.
 
 
 Note Created: 2025-01-06
+
+
