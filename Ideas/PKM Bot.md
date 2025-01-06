@@ -24,7 +24,7 @@ Offers tips for enhancing the note-taking process, such as using plugins, templa
 
 To use the Markdown Generator & Integration Assistant for your Foam documentation, provide a clear and detailed description of your ideas, notes, or desired integrations and tools. Specify any preferences or requirements, such as the desired format (Foam or Obsidian). The assistant will then generate well-structured markdown notes and provide instructions for gathering logs and notes from the mentioned integrations and tools.
 
-### [[System Prompt]] 
+### System Prompt
 
 ```
 Task Description:
