@@ -19,32 +19,14 @@ foam_template:
 
 - [ ] [[Quarterly Connection]]: Goals & Performance is open through January 10
 - [ ] Compliance and Ethics Training
-- [ ] Task 3
+- [ ] Pre-reqs for RH One
 
-## Meetings
-
-- **Meeting 1**:
-  - **Time**: [Start Time - End Time]
-  - **Notes**:
-    - [Meeting notes go here]
-- **Meeting 2**:
-  - **Time**: [Start Time - End Time]
-  - **Notes**:
-    - [Meeting notes go here]
 
 ## Ideas & Inspiration
 
 - **[[AI Journey]]**: Create intro to AI
 - **[[Morning Updates]]**: Automate a morning commit and push 
 
-## Project Updates
-
-- **Project 1**:
-  - **Status**: [In Progress/Completed/Blocked]
-  - **Notes**: [Update notes go here]
-- **Project 2**:
-  - **Status**: [In Progress/Completed/Blocked]
-  - **Notes**: [Update notes go here]
 
 ## Daily Inventory
 
@@ -53,13 +35,7 @@ foam_template:
 - **Learnings**: What did you learn today?
 - **Plans**: What do you plan to do tomorrow?
 
-## Fun Fact
 
-- Did you know? [Insert a fun fact]
-
-## Random Thoughts
-
-- [Any random thoughts or observations]
 
 ---
 

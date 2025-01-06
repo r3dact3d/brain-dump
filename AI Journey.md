@@ -14,6 +14,8 @@ type: basic-note
 
 ![run_local](attachments/run_local.png)
 
+SOURCE: [Red Hat Developer](https://www.youtube.com/watch?v=tZj8j3fdXy4)
+
 ### Standalone AI
 
 Standalone AI refers to AI frameworks and platforms that can be used independently to build and deploy AI models. These tools often provide a comprehensive set of features for developing AI applications from scratch.
