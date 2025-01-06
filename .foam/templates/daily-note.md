@@ -9,7 +9,7 @@ foam_template:
 
 ## Quiet Time
 
-> "Insert an Scripture of the day here"
+> "Insert a Scripture of the day here"
 
 - **Mood**: [Happy/Sad/Excited/Tired]
 - **Gratitude**: What are you grateful for today?
