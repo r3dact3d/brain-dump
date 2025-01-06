@@ -4,10 +4,9 @@ type: basic-note
 
 # Tools
 
-## Todo List
+## List
 
-1. First tabstop
-2. A second tabstop
-3. A third tabstop
+1. [[GitHub]]
+2. [[QRZ]]
 
 Note Created: 2025-01-04
