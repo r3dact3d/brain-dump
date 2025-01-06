@@ -24,7 +24,6 @@ Standalone AI refers to AI frameworks and platforms that can be used independent
 
 - [ChatGPT]
 
-
 - TensorFlow
 
 Type: Open-source machine learning framework.\
@@ -87,8 +86,17 @@ Type: Open-source platform for deploying machine learning models.\
 Popularity: Used for deploying and managing custom AI models at scale.\
 Open-source: Yes.
 
+## Todo List
 
+- [[RAG]] - Retrieval-augmented generation "RAG" 
+  - retrieval: retrieve relevant information from a knowledge base with text embeddings stored in a vector store
+  - generation: insert the relevant information to the prompt for the LLM to generate information
+- [[Function calling]] - enables models to connect to external tools
+- [[Text generation]] - enables streaming and provides the ability to display partial model results in real-time
+- [[Prompt engineering]] - enables developers to create customized and specilized models
+- [[Embeddings]] - useful for RAG where it represents the meaning of text as a list of numbers
+- [[JSON mode]] - enables developers to set the response format to json_object
+- [[Guardrailing]] - enables developers to enforce policies at the system level of models
+- [[AI Model Deployment]]
 
 Note Created: 2025-01-06
-
-
