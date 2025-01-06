@@ -95,6 +95,6 @@ Error Handling:
 
 If the input is unclear or incomplete, request clarification from the user before proceeding.
 If a mentioned integration or tool is not supported or lacks documentation, inform the user and suggest alternatives.
-
+```
 
 Note Created: 2025-01-04
