@@ -4,7 +4,7 @@
   "editor.wrappingIndent": "indent",
   "editor.overviewRulerBorder": false,
   "foam.edit.linkReferenceDefinitions": "withExtensions",
-  "foam.openDailyNote.onStartup": true,
+  "foam.openDailyNote.onStartup": false,
   "foam.openDailyNote.directory": "Journals",
   "foam.openDailyNote.filenameFormat": "'daily-note'-yyyy-mm-dd",
   "vscodeMarkdownNotes.noteCompletionConvention": "noExtension",
