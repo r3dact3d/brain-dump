@@ -4,7 +4,7 @@ type: basic-note
 
 # Morning Updates
 
-Created simple bash script called morning_commit.sh
+Created simple bash script called automate_git.sh
 
 ```
 #!/bin/bash
@@ -22,13 +22,13 @@ git push
 Make script executable.
 
 ```
-chmod +x morning_commit.sh
+chmod +x automate_git.sh
 ```
 
 Setup a local cronjob
 
 ```
-0 9 * * * {{working_dir}}/morning_commit.sh >> {{working_dir}}/cron.log 2>&1
+0 9 * * * {{working_dir}}/automate_git.sh >> {{working_dir}}/cron.log 2>&1
 ```
 
 ## Todo List
