@@ -35,7 +35,7 @@ foam_template:
 ## Ideas & Inspiration
 
 - **[[AI Launch]]**: Create intro to AI
-- **Idea 2**: [Describe your idea]
+- **[[Morning Updates]]**: Automate a morning commit and push 
 
 ## Project Updates
 
