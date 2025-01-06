@@ -2,7 +2,7 @@
 type: basic-note
 ---
 
-# Morning Updates
+# Automatic Updates
 
 Created simple bash script called automate_git.sh
 
@@ -30,6 +30,9 @@ Setup a local cronjob
 ```
 0 9 * * * {{working_dir}}/automate_git.sh >> {{working_dir}}/cron.log 2>&1
 ```
+
+> [!NOTE]
+> In the above example, you will need to update the {{working_dir}} with the path to your executable and Foam/Obsidian markdown files or vault.
 
 ## Todo List
 
