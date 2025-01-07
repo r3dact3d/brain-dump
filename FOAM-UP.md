@@ -12,7 +12,12 @@ The short story with Foam is I can use *Markdown* with *Code* and leverage *GitH
 2. Wrapped my head around the layout and structure and backlinks 
 3. Established a couple of templates for daily and default notes
 4. Configured [[Automatic Updates]]
-5. 
+5. Configured a private repo to sync to public repo for collab and transparency 
+
+### Transition
+
+- Moved to [[Obsidian]]  to manage the markdown notes of my 2nd brain
+- 
 
 ## Todo
 
