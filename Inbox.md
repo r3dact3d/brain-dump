@@ -9,8 +9,8 @@ type: feature
 - process to attach docs
 - [[3930 North Texas Emergency]] Sunday morning checkin reminder
   - automate [[Check-in Report]]
-- [[Prayer List]]
-- 
+- [[Prayer List]] 
+- Look into [[Fabric]]
 
 [[Todo]]
 

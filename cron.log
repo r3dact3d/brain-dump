@@ -1,0 +1,32 @@
+[master 33cb408] Automated commit: Mon Jan  6 07:01:46 PM CST 2025
+ 33 files changed, 31755 insertions(+), 14 deletions(-)
+ create mode 100644 .obsidian/app.json
+ create mode 100644 .obsidian/appearance.json
+ create mode 100644 .obsidian/community-plugins.json
+ create mode 100644 .obsidian/core-plugins.json
+ create mode 100644 .obsidian/daily-notes.json
+ create mode 100644 .obsidian/graph.json
+ create mode 100644 .obsidian/plugins/calendar/data.json
+ create mode 100644 .obsidian/plugins/calendar/main.js
+ create mode 100644 .obsidian/plugins/calendar/manifest.json
+ create mode 100644 .obsidian/plugins/dataview/data.json
+ create mode 100644 .obsidian/plugins/dataview/main.js
+ create mode 100644 .obsidian/plugins/dataview/manifest.json
+ create mode 100644 .obsidian/plugins/dataview/styles.css
+ create mode 100644 .obsidian/plugins/periodic-notes/data.json
+ create mode 100644 .obsidian/plugins/periodic-notes/main.js
+ create mode 100644 .obsidian/plugins/periodic-notes/manifest.json
+ create mode 100644 .obsidian/plugins/periodic-notes/styles.css
+ create mode 100644 .obsidian/plugins/templater-obsidian/data.json
+ create mode 100644 .obsidian/plugins/templater-obsidian/main.js
+ create mode 100644 .obsidian/plugins/templater-obsidian/manifest.json
+ create mode 100644 .obsidian/plugins/templater-obsidian/styles.css
+ create mode 100644 .obsidian/templates.json
+ create mode 100644 .obsidian/workspace.json
+ create mode 100644 Templates/Periodic/daily-note.md
+ create mode 100644 Templates/Periodic/new-note.md
+ create mode 100644 Templates/Periodic/weekly-note.md
+ create mode 100644 Templates/people-note.md
+ create mode 100644 cron.log
+To github.com:r3dact3d/brain-dump.git
+   ffe6b82..33cb408  master -> master

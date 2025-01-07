@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"b54f9bf2a922700a","x":-322,"y":-79,"width":202,"height":50,"type":"file","file":"Obsidian.md"},
+		{"id":"8daa6ecb6ccf1291","x":0,"y":93,"width":168,"height":60,"type":"text","text":"Foamy-Stuff  "},
+		{"id":"fb490b2265f52f4c","x":420,"y":123,"width":160,"height":61,"type":"text","text":"Brain-Dump"},
+		{"id":"5742a272b0b1b5f7","x":105,"y":-200,"width":132,"height":55,"type":"text","text":"GitHub Private Repo"},
+		{"id":"2d8a4564088cc0e1","x":359,"y":-200,"width":123,"height":55,"type":"text","text":"GitHub Public Repo"},
+		{"id":"b0615976ea1b3424","x":287,"y":-383,"width":213,"height":60,"type":"text","text":"Second Brain Wiki"}
+	],
+	"edges":[
+		{"id":"e18d73e8e5d3ecbe","fromNode":"b54f9bf2a922700a","fromSide":"right","toNode":"8daa6ecb6ccf1291","toSide":"left","label":"markdown"},
+		{"id":"97bbf2b2a15ff2a5","fromNode":"8daa6ecb6ccf1291","fromSide":"right","toNode":"fb490b2265f52f4c","toSide":"left","label":"rsync"},
+		{"id":"a37769f086e04a8e","fromNode":"8daa6ecb6ccf1291","fromSide":"top","toNode":"5742a272b0b1b5f7","toSide":"bottom","label":"git"},
+		{"id":"2d12d59fe664132e","fromNode":"fb490b2265f52f4c","fromSide":"top","toNode":"2d8a4564088cc0e1","toSide":"bottom","label":"git"},
+		{"id":"b055cedb2c9095d0","fromNode":"2d8a4564088cc0e1","fromSide":"top","toNode":"b0615976ea1b3424","toSide":"bottom"}
+	]
+}

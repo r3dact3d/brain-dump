@@ -4,11 +4,11 @@ type: feature
 
 # Second Brain
 
-Welcome to my second brain, powered by [Foam](https://foambubble.github.io/foam/). This is a collection of my notes and ideas, organized in a way that allows for easy navigation, interconnectivity, and discovery.
+Welcome to my second brain. This is a collection of my notes and ideas, organized in a way that allows for easy navigation, inter-connectivity, and discovery.
 
 ## About Me
 
-Hi there! I’m a Red Hat Architect by day, working on supported and enterprise-level open-source software. But when I’m not automating infrastructure provisioning or evangelizing GitOps strategies, you can find me outdoors, gazing at the sky and promoting the art of amateur radio.
+I’m a Red Hat Architect by day, working on supported and enterprise-level open-source software. But when I’m not automating infrastructure provisioning or evangelizing GitOps strategies, you can find me outdoors, gazing at the sky and promoting the art of amateur radio.
 
 ## Table of Contents
 

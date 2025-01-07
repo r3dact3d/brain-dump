@@ -21,7 +21,12 @@ The short story with Foam is I can use *Markdown* with *Code* and leverage *GitH
 ## Todo
 
 
-You can create todos in Foam.
+1. Import more notes and historical data
+2. Integrations
+   1. Calendar
+   2. Chatbot
+   3. Email
+3. Iterate
 
 - [ ] This is an example of a todo list item that's complete
 - [ ] This one is not completed yet

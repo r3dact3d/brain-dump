@@ -7,7 +7,7 @@ type: feature
 ## Todo List
 
 1. [[AI Journey]]
-2. [[FOAM-UP]]
+2. 
 3. 
 
 Note Created: 2025-01-04

@@ -1,17 +1,14 @@
 ---
-name: <% tp.file.title %>
-role: 
-team: 
-company:
-location: 
-entity:
-  - person
-meetings: 
-created: <% tp.file.creation_date() %>
-modified: <% tp.file.last_modified_date() %>
+type: basic-note
+description: This is my people template
+foam_template:
+  filepath: 'People/$FOAM_TITLE.md'
 ---
-# <% tp.file.title %>
+
+# $FOAM_TITLE
+
 ## Details
+
 - **Preferred Pronouns:** 
 - **Interests:** 
 - **Pets:** 
@@ -26,14 +23,18 @@ group by file.link as Note
 sort rows.file.day desc
 ```
 ___
+
 ### Tasks
+
 ```dataview
 task
 where contains(text, "<% tp.file.title %>")
 ```
 
 ---
+
 ## Meetings
+
 ```dataview
 list
 from "Meetings"
