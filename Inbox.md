@@ -11,6 +11,8 @@ type: feature
   - automate [[Check-in Report]]
 - [[Prayer List]] 
 - Look into [[Fabric]]
+- [Diagrams](https://foambubble.github.io/foam/user/recipes/diagrams-in-markdown)
+- 
 
 [[Todo]]
 
