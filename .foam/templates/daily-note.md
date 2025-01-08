@@ -7,12 +7,19 @@ foam_template:
 
 # $FOAM_DATE_YEAR-$FOAM_DATE_MONTH-$FOAM_DATE_DATE
 
-**Prev:**
-**Next:**
-
 ## Quiet Time
 
-> "Insert a Scripture of the day here"
+```
++----------------+
+| Morning Quiet  |
+| Time           |
++----------------+
+|  - Meditate    |
+|  - Journal     |
+|  - Reflect     |
+|  - Plan        |
++----------------+
+```
 
 - **Mood**: [Happy/Sad/Excited/Tired]
 - **Gratitude**: What are you grateful for today?

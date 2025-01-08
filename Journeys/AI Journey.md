@@ -21,9 +21,10 @@ SOURCE: [Red Hat Developer](https://www.youtube.com/watch?v=tZj8j3fdXy4)
 Standalone AI refers to AI frameworks and platforms that can be used independently to build and deploy AI models. These tools often provide a comprehensive set of features for developing AI applications from scratch.
 
 - [Mistral](https://console.mistral.ai/)
-
+- [Claude](https://claude.ai/new)
 - [ChatGPT]
-
+  
+  
 - TensorFlow
 
 Type: Open-source machine learning framework.\
