@@ -1,0 +1,54 @@
+# Dockerfile
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# Copy requirements first to leverage Docker cache
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy application code and configuration
+COPY ham_radio_agent.py .
+COPY config.json .
+COPY knowledge_base.json .
+
+# Create data directory
+RUN mkdir -p /app/data
+
+# Set up logging
+RUN mkdir -p /app/logs
+
+# Run as non-root user for security
+RUN useradd -m hamuser
+RUN chown -R hamuser:hamuser /app
+USER hamuser
+
+# Command to run the agent
+CMD ["python", "ham_radio_agent.py"]
+
+# requirements.txt
+feedparser==6.0.10
+python-dateutil==2.8.2
+
+# config.json
+{
+    "feed_urls": [
+        "http://www.arrl.org/news/rss",
+        "http://www.eham.net/articles/rss"
+    ],
+    "data_directory": "/app/data",
+    "knowledge_file": "/app/knowledge_base.json",
+    "log_file": "/app/logs/ham_radio_agent.log"
+}
+
+# docker-compose.yml
+version: '3.8'
+services:
+  ham-radio-agent:
+    build: .
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+    environment:
+      - TZ=UTC
+    restart: unless-stopped

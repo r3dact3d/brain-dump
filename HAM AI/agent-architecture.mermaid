@@ -1,0 +1,46 @@
+flowchart TD
+    subgraph External Sources
+        RSS[RSS Feeds]
+        API[External APIs]
+        WEB[Websites]
+        PROP[Propagation Data]
+    end
+
+    subgraph Message Bus
+        MB[Enterprise Message Bus]
+    end
+
+    subgraph Agents
+        CA[Coordinator Agent]
+        DC[Data Collection Agent]
+        AA[Analysis Agent]
+        KB[Knowledge Base Agent]
+        RG[Report Generation Agent]
+        EC[Emergency Comms Agent]
+    end
+
+    subgraph Storage
+        DB[(Primary Database)]
+        Cache[(Redis Cache)]
+    end
+
+    RSS --> DC
+    API --> DC
+    WEB --> DC
+    PROP --> DC
+    
+    DC --> MB
+    MB --> CA
+    
+    CA --> AA
+    CA --> KB
+    CA --> RG
+    CA --> EC
+    
+    AA --> MB
+    KB --> MB
+    RG --> MB
+    EC --> MB
+    
+    MB --> DB
+    MB --> Cache
