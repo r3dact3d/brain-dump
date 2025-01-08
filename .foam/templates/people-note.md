@@ -1,5 +1,5 @@
 ---
-type: basic-note
+type: people-note
 description: This is my people template
 foam_template:
   filepath: 'People/$FOAM_TITLE.md'

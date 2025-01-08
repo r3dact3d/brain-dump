@@ -1,5 +1,5 @@
 ---
-type: basic-note
+type: meeting-note
 description: This is my meeting template
 foam_template:
   filepath: 'Meetings/$FOAM_TITLE.md'
