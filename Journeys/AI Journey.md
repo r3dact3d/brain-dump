@@ -24,13 +24,7 @@ This document compiles the key takeaways from each lesson of the AI Fundamentals
 
 ### Lesson 1: Introduction
 
-* To be a successful seller, you need to be able to hold casual conversations about artificial intelligence (AI) with confidence.
-
-* Part of what makes the incredible growth in AI possible is Moore's law, which states that the number of transistors in an integrated circuit doubles approximately every two years.
-
-* Ultimately, as a seller, you should care about AI because your customers do.
-
-* The market for AI-related spending is large and only going to grow larger within the next few years.
+* Part of what makes the incredible growth in AI possible is Moore's law, which states that the number of transistors in an integrated circuit doubles approximately every two years
 
 * AI is a branch of computer science that enables machines to perform tasks that typically require human intelligence.
 
@@ -65,18 +59,6 @@ This document compiles the key takeaways from each lesson of the AI Fundamentals
 * There are a variety of approaches an organization might use when working with a foundation model. One of the most popular approaches is retrieval-augmented generation (RAG), a method that involves getting better answers from a generative AI application by linking an LLM to an external resource.
 
 * There are several issues associated with LLMs, including massive energy and resource costs, a lack of transparency with regard to how models are trained, biases in model training, hallucinations, data recency, and issues related to copyright and privacy.
-
-### Lesson 4: Red Hat's AI Strategy
-
-* Red Hat's goal is to become a trusted partner to its customers as they progress along the AI adoption journey.
-
-* Red Hat is focused on building and investing in AI solutions that deliver trust, choice, and consistency.
-
-* The four pillars of Red Hat's AI strategy are AI models, AI platforms, an AI-enabled portfolio, and AI workload support.
-
-* Red Hat supports a variety of AI model types and focuses on providing enterprises with choice, openness, and control when it comes to AI models.
-
-* The two main Red Hat AI platform offerings are Red Hat Enterprise Linux AI and Red Hat OpenShift AI.
 
 ## Standalone AI
 
