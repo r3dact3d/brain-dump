@@ -131,6 +131,8 @@ Type: Open-source platform for deploying machine learning models.\
 Popularity: Used for deploying and managing custom AI models at scale.\
 Open-source: Yes.
 
+## [[Local AI]]
+
 - [[Fabric]]
 
 
