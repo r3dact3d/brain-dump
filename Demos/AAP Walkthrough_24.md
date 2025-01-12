@@ -5,13 +5,6 @@ description: This is my demo template
 
 # AAP Walkthrough_24
 
----
-type: demo-note
-description: This is my demo template
----
-
-# AAP Walkthrough_24
-
 Hello and welcome, my name is Brady Thompson and I am a Consulting Architect at Red Hat. Today I will walk through at a high-level the Automation Controller component of the Ansible Automation Platform, and highlight some of the Controller options and features that give us the ability to achieve robust Enterprise Automation at Scale.
 
 ## Dashboard Overview
