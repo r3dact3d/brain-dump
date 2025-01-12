@@ -5,7 +5,7 @@ description: This is my idea note template
 
 # Local AI
 
-1. Install [[ollama]]
+1. Install [[Ollama]]
 - [ollama](https://ollama.com/)
 2. Install [[Open WebUI]]
 - [Open WebUI](https://openwebui.com/)

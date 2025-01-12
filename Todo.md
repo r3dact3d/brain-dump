@@ -27,6 +27,7 @@ Extensions used in VS Code
    2. Chatbot
    3. Email
 3. Iterate
+4. Create [[Second Brain Design]] document
 
 - [ ] This is an example of a todo list item that's complete
 - [ ] This one is not completed yet

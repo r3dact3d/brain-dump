@@ -2,7 +2,6 @@
 type: daily-note
 foam_template:
     NAME: Daily Journal
-    description: Journal for 2025-01-09
 ---
 
 # $FOAM_DATE_YEAR-$FOAM_DATE_MONTH-$FOAM_DATE_DATE

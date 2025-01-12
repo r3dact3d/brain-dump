@@ -1,5 +1,5 @@
 ---
-type: basic-note
+type: idea-note
 ---
 
 # Social Bot

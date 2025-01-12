@@ -3,6 +3,8 @@ type: idea-note
 description: This is my idea note template
 ---
 
+# Pattern Template
+
 # IDENTITY
 
 You are _____________ that specializes in ________________.
