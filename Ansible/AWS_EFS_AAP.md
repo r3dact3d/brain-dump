@@ -171,27 +171,35 @@ Create a new file system and note down the File System ID.
 2. Mount the EFS File System
 Ensure that your EC2 instances have the amazon-efs-utils package installed.
 
+```bash
 sudo yum install -y amazon-efs-utils
 Mount the EFS file system on your EC2 instances.
 
 sudo mount -t efs -o tls <file-system-id>:/ /mnt/efs
+```
+
 3. Update the Inventory File
 Open your Ansible inventory file.
 Add the EFS mount point to the inventory file under the [all:vars] section.
 
+```yaml
 [all:vars]
 efs_mount_point=/mnt/efs
+```
+
 4. Configure AAP to Use EFS Storage
 Edit the AAP configuration files to use the EFS mount point for storage.
 Update the automation-controller, private-automation-hub, and execution-environment configurations to use the EFS mount point.
 5. Deploy AAP
 Run the Ansible playbook to deploy AAP.
 
+```bash
 ansible-playbook -i inventory setup.yml
+```
 Example Inventory File
 Here is an example of what your inventory file might look like:
 
-
+```yaml
 [automationcontroller]
 controller.example.com ansible_host=<controller-ip>
 
@@ -206,10 +214,12 @@ pg_password='your_pg_password'
 [automationcontroller:vars]
 controller_route_host_vars=true
 controller_route_host_default_value='controller.example.com'
+```
+
 Example Playbook
 Here is an example playbook snippet to mount the EFS file system:
 
-
+```yaml
 - name: Mount EFS file system
   hosts: all
   become: yes
@@ -226,6 +236,8 @@ Here is an example playbook snippet to mount the EFS file system:
         fstype: efs
         opts: tls
         state: mounted
+```
+
 Best Practices
 Security: Ensure that your EFS file system is secured with appropriate IAM policies and security groups.
 Monitoring: Set up monitoring for your EFS file system to track usage and performance.
