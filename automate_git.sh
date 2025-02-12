@@ -1,10 +1,20 @@
 #!/bin/bash
 
-# Add all changes to the staging area
-git add .
+if ! hash git; then
+    echo "Git is not installed on this system"
+    exit 1
+fi
 
-# Commit the changes with a timestamp
-git commit -m "Automated commit: $(date)"
+diff=$(git diff)
+if [ -z "$diff" ]; then
+    echo "There are no changes to commit"
+    exit 0
+fi
 
-# Push the changes to the remote repository
-git push
+status=$(git status)
+if [ -n "$status" ]; then
+    echo "There are changes to commit"
+    git add .
+    git commit -m "Automated commit: $(date)"
+    git push
+fi

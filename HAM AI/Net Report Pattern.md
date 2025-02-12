@@ -1,5 +1,5 @@
 ---
-type: idea-note
+type: ham-note
 description: This is my pattern for net reports
 ---
 

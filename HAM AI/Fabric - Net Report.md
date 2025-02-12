@@ -1,3 +1,8 @@
+---
+type: ham-note
+description: This is my pattern for net reports
+---
+
 # Fabric - Net Report
 
 > $ echo "I have a morning qso with a friend and would like to have a net report to cover our topics and maybe take some more checkins.  Can you generate a fun morning report?" | fabric -sp ham_radio_op

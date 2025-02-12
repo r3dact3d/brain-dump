@@ -27,6 +27,8 @@ If you're new to my second brain, here are some tips to help you navigate:
 - Use the back button to return to the previous note.
 - Use the graph view to explore the interconnections between notes.
 
+> To see how I setup my Second Brain, it all starts with [[Foam]]
+
 ## Connect with Me
 
 Add [[Social Media]]

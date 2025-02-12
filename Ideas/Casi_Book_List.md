@@ -1,4 +1,8 @@
-# LIBRIS RECOMMENDATIONS
+---
+type: idea-note
+---
+
+# LIBRIS RECOMMENDATIONS - casi
 
 ## 1. **Title:** The Seven Husbands of Evelyn Hugo
 **Author:** Taylor Jenkins Reid

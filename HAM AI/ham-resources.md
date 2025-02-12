@@ -1,3 +1,8 @@
+---
+type: ham-note
+description: This is my pattern for net reports
+---
+
 # Ham Resources
 
 - often referred to as "hams," share a unique identity and culture. Here are some key identifiers and characteristics that typify amateur radio operators:

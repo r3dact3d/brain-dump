@@ -4,11 +4,36 @@ type: basic-note
 
 # AI chatbot
 
+## How To - High Level
+
+> Setup Environment 
+- Install Python client(s) library
+- Configure client api keys
+- Use speech-to-text service to convert voice input to text, ie Google Cloud
+- Use NLP API for semantic search and querying 
+- Use text-to-speech service to convert text to audio output, ie Google Cloud
+> SOURCE: [voice-chatbot](https://www.voiceflow.com/articles/voice-chatbot)
+
+## [[Tech Stack]]
+
+### [[Whisper]]
+
+- Transcribe - audio to text
+- Translate - language to English
+
+### [[WatsonX Assistant]]
+
+- [watson-voice-bot](https://github.com/IBM/watson-voice-bot/blob/master/doc/source/local.md)
+
 ## System Prompt
 
 ### Patterns
 
 - [[Ask R3dact3d Ansible]]
+
+### APIs 
+
+- [Google Search](https://console.cloud.google.com/apis/credentials?authuser=0&project=local-brain-1737328083589)
 - 
 
 

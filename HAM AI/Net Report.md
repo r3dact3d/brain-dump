@@ -1,3 +1,7 @@
+---
+type: ham-note
+description: This is my pattern for net reports
+---
 # Amateur Radio Net Report
 
 **Date**: [Date]
