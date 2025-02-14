@@ -4,3 +4,6 @@ public/
 private/
 cron.log
 rsync.log
+token*
+*.json
+credentials*

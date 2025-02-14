@@ -2,7 +2,7 @@
 type: idea-note
 description: This is my idea note template
 ---
-# astro_lookup
+# Astronomy Lookup - System Prompt
 
 # Identity
 
