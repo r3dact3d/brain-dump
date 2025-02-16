@@ -22,7 +22,7 @@ It simplifies the process of integrating large language models (LLMs) into comma
 Its primary goal is to make AI tools more accessible to the broader community, particularly developers, system administrators, and other command-line heroes who want to integrate Generative AI into their workflows efficiently.
 
 > Think of getting a deep summary of a youtube video that you are interested in, but don't have the cycles to watch.
->  Checkout the [Extract Wisdom](https://github.com/danielmiessler/fabric/tree/main/patterns/extract_wisdom) and [Extract Instructions](https://github.com/danielmiessler/fabric/tree/main/patterns/extract_instructions)patterns
+>  Checkout the [Extract Wisdom](https://github.com/danielmiessler/fabric/tree/main/patterns/extract_wisdom) and [Extract Instructions](https://github.com/danielmiessler/fabric/tree/main/patterns/extract_instructions) patterns
 
 - **Simplification**: Easy for users to leverage LLMs without having to develop their own frameworks or wrappers.
 - **Modularity**: Designed as a collection of modular patterns, allowing users to integrate various LLMs seamlessly into their command-line workflows.
@@ -53,6 +53,7 @@ fabric -p enrich_blog_post -o foamy-stuff/dump.md -u https://r3dact3d.github.io
 > The output will be saved as a new markdown file in my Foam directory and synced with GitHub.  Essentially adding to my "world of text" and growing my second brain.
 
 ### Real-World Use Cases
+
 1. **Automating Daily Tasks**
    - Describe how you automate daily tasks using Fabric (e.g., summarizing documents, generating code snippets).
 2. **Enhancing Workflow Efficiency**
@@ -60,11 +61,6 @@ fabric -p enrich_blog_post -o foamy-stuff/dump.md -u https://r3dact3d.github.io
 3. **Collaboration and Sharing**
    - Show how Fabric can facilitate collaboration among team members by sharing generated content or workflows.
 
-## Additional Tips
-
-- Include screenshots or code snippets to illustrate key points.
-- Provide links to relevant sections of the documentation and GitHub repository.
-- Mention any challenges you faced and how you overcame them.
 - [[Fabric Patterns]]
 
 ### Conclusion

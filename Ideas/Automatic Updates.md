@@ -25,7 +25,7 @@ These are the specific steps currently documented that create the automatic back
 > I use this to sync public facing stuff to another local git repo to sync with a public source.
 
 ```.bash
-sync -av --exclude='.foam/' --exclude='.git/' --exclude='.vscode/' --exclude='scripts/' --exclude='private/' --exclude='Meetings/' --exclude='rsync.log' --exclude='cron.log' --exclude='_layouts/' --exclude='Journals/' --include='AI/' --include='Ansible/' --include='attachments/' --include='Demos/' --include='HAM AI/' --include='Journeys/' -- include='Ideas/' --include='Fabric/' --include='Ideas.md' --include='Inbox.md' --include='Projects.md' --include='readme.md' --include='Todo.md' --include='Tools.md' --exclude='*' {{working_dir}}/foamy-stuff/ {{working_dir}}/brain-dump/ >> {{working_dir}}/foamy-stuff/rsync.log 2>&1
+sync -av --exclude='.foam/' --exclude='.git/' --exclude='.vscode/' --exclude='scripts/' --exclude='Companies/' --exclude='private/' --exclude='Meetings/' --exclude='rsync.log' --exclude='cron.log' --exclude='_layouts/' --exclude='Journals/' --include='AI/' --include='Ansible/' --include='attachments/' --include='Demos/' --include='HAM AI/' --include='Journeys/' -- include='Ideas/' --include='Fabric/' --include='Ideas.md' --include='Inbox.md' --include='Projects.md' --include='readme.md' --include='Todo.md' --include='Tools.md' --exclude='*' {{working_dir}}/foamy-stuff/ {{working_dir}}/brain-dump/ >> {{working_dir}}/foamy-stuff/rsync.log 2>&1
 ```
 
 ## git

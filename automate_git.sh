@@ -5,7 +5,7 @@ if ! hash rsync; then
     exit 1
 fi
 
-rsync -av --exclude='.foam/' --exclude='.git/' --exclude='.vscode/' --exclude='scripts/' --exclude='private/' --exclude='Meetings/' --exclude='rsync.log' --exclude='cron.log' --exclude='_layouts/' --exclude='Journals/' --include='AI/' --include='Ansible/' --include='attachments/' --include='Demos/' --include='HAM AI/' --include='Journeys/' -- include='Ideas/' --include='Fabric/' --include='Ideas.md' --include='Inbox.md' --include='Projects.md' --include='readme.md' --include='Todo.md' --include='Tools.md' --exclude='*' /home/brthomps/working/foamy-stuff/ /home/brthomps/working/brain-dump/ >> /home/brthomps/working/foamy-stuff/rsync.log 2>&1
+rsync -av --exclude='*' --exclude='.foam/' --exclude='.git/' --exclude='.vscode/' --exclude='scripts/' --exclude='private/' --exclude='Companies' --exclude='Meetings/' --exclude='rsync.log' --exclude='cron.log' --exclude='_layouts/' --exclude='Journals/' --include='AI/' --include='Ansible/' --include='attachments/' --include='Demos/' --include='HAM AI/' --include='Journeys/' -- include='Ideas/' --include='Fabric/' --include='Ideas.md' --include='Inbox.md' --include='Projects.md' --include='readme.md' --include='Todo.md' --include='Tools.md' --exclude='*' /home/brthomps/working/foamy-stuff/ /home/brthomps/working/brain-dump/ >> /home/brthomps/working/foamy-stuff/rsync.log 2>&1
 cd /home/brthomps/working/brain-dump/
 
 if ! hash git; then
