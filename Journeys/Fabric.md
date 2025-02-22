@@ -22,7 +22,7 @@ It simplifies the process of integrating large language models (LLMs) into comma
 Its primary goal is to make AI tools more accessible to the broader community, particularly developers, system administrators, and other command-line heroes who want to integrate Generative AI into their workflows efficiently.
 
 > Think of getting a deep summary of a youtube video that you are interested in, but don't have the cycles to watch.
->  Checkout the [Extract Wisdom](https://github.com/danielmiessler/fabric/tree/main/patterns/extract_wisdom) and [Extract Instructions](https://github.com/danielmiessler/fabric/tree/main/patterns/extract_instructions) patterns \
+>  Checkout the [Extract Wisdom](https://github.com/danielmiessler/fabric/tree/main/patterns/extract_wisdom) and [Extract Instructions](https://github.com/danielmiessler/fabric/tree/main/patterns/extract_instructions) patterns.
 > 
 > Here is an example output from the Extract Wisdom pattern used on the Fabric Origin Story Youtube video [[fabric-origin]]
 

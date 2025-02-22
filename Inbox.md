@@ -12,8 +12,7 @@ type: feature
 
 - Write a system prompt for [[myBot]]
 - uhm [[quantization]]
-- how to get calendar info into Foam
-- how to get email info into Foam
+
 - process to attach docs
 - [[3930 North Texas Emergency]] Sunday morning checkin reminder
   - automate [[Check-in Report]]
